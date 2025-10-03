@@ -1,0 +1,56 @@
+/* Fondo general */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5dc; /* beige */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Caja central */
+.inicio-huesped-box {
+  background: #8DA8A6; /* celeste */
+  padding: 50px;
+  border-radius: 10px;
+  width: 900px;
+  text-align: center;
+}
+
+/* Título */
+.inicio-huesped-box h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+/* Menú con íconos */
+.menu-huesped {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.menu-huesped .item {
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.menu-huesped .item:hover {
+  transform: scale(1.1);
+}
+
+.menu-huesped i {
+  font-size: 50px;   /* íconos grandes */
+  margin-bottom: 10px;
+  color: #000;       /* negro como en el boceto */
+}
+
+.menu-huesped p {
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin: 0;
+}

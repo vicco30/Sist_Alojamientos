@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crear Perfil Huésped</title>
+  <link rel="stylesheet" href="css2/styles2.css">
+</head>
+<body>
+  <div class="perfil-box">
+    <!-- Avatar -->
+    <div class="avatar">
+      <img id="preview" src="https://via.placeholder.com/200x200.png?text=Foto" alt="Foto de perfil">
+      <input type="file" id="foto" accept="image/png, image/jpg, image/jpeg" onchange="mostrarFoto(event)">
+      <p class="nota">ARCHIVO PNG, JPG, PNG</p>
+    </div>
+
+    <!-- Formulario -->
+    <div class="form">
+      <h2>Crear perfil huésped</h2>
+      <input type="text" id="nombreHuesped" placeholder="Nombre" required>
+      <input type="email" id="correoHuesped" placeholder="Email" required>
+      <input type="password" id="passwordHuesped" placeholder="Contraseña" required>
+      
+      <button class="btn" onclick="registrarHuesped()">REGISTRARSE</button>
+      <p id="msg-perfil" class="mensaje"></p>
+    </div>
+  </div>
+
+  <script src="js/funciones2.js"></script>
+</body>
+</html>
+

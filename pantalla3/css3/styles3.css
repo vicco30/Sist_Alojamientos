@@ -1,0 +1,103 @@
+/* Fondo general */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #8DA8A6; /* celeste de fondo */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+}
+
+/* Caja del perfil */
+.perfil-usuario-box {
+  background: #f5f5dc; /* color crema/beige */
+  padding: 30px;
+  border-radius: 10px;
+  width: 900px;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+/* Título */
+.perfil-usuario-box h2 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+/* Labels e inputs */
+.perfil-usuario-box label {
+  display: block;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.perfil-usuario-box input {
+  display: inline-block;
+  width: 70%;
+  padding: 8px;
+  margin: 5px 0;
+  border: 2px solid #000;
+  border-radius: 4px;
+}
+
+/* Texto editar */
+.editar {
+  margin-left: 10px;
+  color: #000;
+  font-style: italic;
+}
+
+/* Avatar */
+.avatar {
+  text-align: center;
+}
+
+.avatar img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  border: 3px solid #000;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+/* Botones */
+.acciones {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.btn {
+  background-color: #F9C744; /* amarillo */
+  font-weight: bold;
+  padding: 12px 35px;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #f8b400;
+}
+
+/* Botón eliminar */
+.btn.eliminar {
+  background-color: #FF4C4C; /* rojo */
+}
+
+.btn.eliminar:hover {
+  background-color: #FF4C4C;
+}
+
+/* Mensaje */
+.mensaje {
+  text-align: center;
+  margin-top: 15px;
+  font-weight: bold;
+}

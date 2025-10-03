@@ -1,0 +1,46 @@
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Perfil Usuario</title>
+  <link rel="stylesheet" href="../pantalla3/css3/styles3.css">
+</head>
+<body>
+  <div class="perfil-usuario-box">
+    <!-- Info Usuario -->
+    <div class="info">
+      <h2>Perfil usuario</h2>
+
+      <label>Nombre:</label>
+      <input type="text" id="nombreUsuario" placeholder="Nombre">
+      <span class="editar">editar</span>
+
+      <label>Email:</label>
+      <input type="email" id="correoUsuario" placeholder="Email">
+      <span class="editar">editar</span>
+
+      <label>Teléfono:</label>
+      <input type="tel" id="telefonoUsuario" placeholder="Teléfono">
+      <span class="editar">editar</span>
+    </div>
+
+    <!-- Avatar -->
+    <div class="avatar">
+      <img id="previewUsuario" src="https://via.placeholder.com/180x180.png?text=Foto" alt="Foto usuario">
+      <input type="file" id="fotoUsuario" accept="image/png, image/jpg, image/jpeg" onchange="mostrarFotoUsuario(event)">
+      <p class="editar">editar</p>
+    </div>
+  </div>
+
+  <!-- Botones -->
+  <div class="acciones">
+    <button class="btn" onclick="guardarPerfil()">GUARDAR</button>
+    <button class="btn eliminar" onclick="eliminarCuenta()">ELIMINAR CUENTA</button>
+  </div>
+
+  <!-- Mensaje -->
+  <p id="msg-perfil-usuario" class="mensaje"></p>
+
+  <script src="js/funciones3.js"></script>
+</body>
+</html>

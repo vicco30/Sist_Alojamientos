@@ -1,0 +1,75 @@
+.perfil-box {
+  background: #8DA8A6; /* fondo celeste del boceto */
+  padding: 30px;
+  border-radius: 10px;
+  width: 800px;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.avatar {
+  text-align: center;
+  flex: 1;
+}
+
+.avatar img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #000;
+  margin-bottom: 10px;
+}
+
+.avatar input {
+  margin-top: 10px;
+}
+
+.nota {
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.form {
+  flex: 1;
+}
+
+.form h2 {
+  margin-top: 0;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.form input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 2px solid #000;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #F9C744; /* amarillo */
+  color: #000;
+  font-weight: bold;
+  padding: 12px 30px;
+  border-radius: 25px;
+  cursor: pointer;
+  border: none;
+  margin-top: 10px;
+}
+
+.btn:hover {
+  background-color: #f8b400;
+}
+
+.mensaje {
+  margin-top: 10px;
+  font-weight: bold;
+}
